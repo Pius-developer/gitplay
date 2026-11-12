@@ -1,0 +1,10 @@
+{
+  "name": "gitplay",
+  "private": true,
+  "type": "module",
+  "description": "An interactive Git simulator. Vanilla JS front end, PHP 8 + SQLite back end.",
+  "scripts": {
+    "test": "node --test tests/js/*.test.js",
+    "test:php": "php tests/php/run.php"
+  }
+}
